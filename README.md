@@ -1,5 +1,30 @@
 #### pscsharp6scrch
-######53 Delegates
+######31 polymorphism
+```
+class Book{
+  public virtual double Met();
+}
+class Sub: Book{
+public override double Met(){
+  base.Met();
+}
+}
+
+```
+######33 Objects
+```
+namespace C
+{
+  public double H{get;set;}
+  public C(string name,double h)
+  :base(name)
+  {
+    H=h;
+  }
+}
+```
+
+######53 Delegates (re-read the codes; subscribe the event)
 declare delegate
 ```
 public class Media{
