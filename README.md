@@ -23,6 +23,27 @@ namespace C
   }
 }
 ```
+######44 interfaces
+```
+public interface A
+{
+  void R(String s)
+  int S{get;} 
+}
+public interface B
+{
+  void S(String p)
+}
+```
+implement:
+```
+public class C:A,B{
+public int S{
+  get{return 1;}
+}
+}
+```
+
 
 ######53 Delegates (re-read the codes; subscribe the event)
 declare delegate
